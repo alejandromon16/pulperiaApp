@@ -2,9 +2,10 @@
   <img src="static/sveltekit-electron.svg" />
 </p>
 
-# Sveltekit + Electron
+# Sveltekit + Electron + Python + Sqlite3
 
 Minimal [Sveltekit](https://github.com/sveltejs/kit#readme) + [Electron](https://www.electronjs.org/) starter template.
+Nuestra arquitectura de software consiste en estas 4 tecnologias, en la cual sveltekit y electron son las encargadas de nuestra interfaz grafica de la aplicación de escritorio. por otro lado, python es le controlador de los datos extrayendo y enviando datos a sqlite3( basicamente manejo del CRUD). 
 
 <br />
 
@@ -28,3 +29,4 @@ Minimal [Sveltekit](https://github.com/sveltejs/kit#readme) + [Electron](https:/
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Svelte for VSCode](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode)
+
